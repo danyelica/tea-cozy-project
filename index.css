@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    opacity: 0.9;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+
+    width: 100vw;
+
+    background-color: black;
+}
+
+ul {
+    display: flex;
+
+    gap: 20px;
+
+    opacity: 0.9;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+h4 {
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 10px;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    opacity: 1;
+}
+
+.nav img {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 70px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    height: 700px;
+    width: 1200px;
+
+    background-image: url('assets/img-mission-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    text-align: center;
+
+    padding: 10px;
+    width: 100%;
+
+    background-color: black;
+    opacity: 1;
+}
+
+.box h4 {
+    padding-bottom: 0;
+}
+
+.months-tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 100px 0 50px;
+
+    text-align: center;
+}
+
+.months-tea h4 {
+    padding: 20px 0px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 25px;
+    width: 1000px;
+}
+
+.images img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 600px;
+    width: 1200px;
+
+    background-image: url('assets/img-locations-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.locations h2 {
+    padding: 15px;
+}
+
+.locations .box {
+    padding: 15px 0px;
+    width: 300px;
+}
+
+.locations h3 {
+    padding-bottom: 5px;
+}
+
+.locations p {
+    padding: 20px 0px;
+}
+
+.boxes {
+    display: flex;
+
+    gap: 40px;
+}
+
+.contact {
+    text-align: center;
+
+    margin: 15px;
+}
+
+.contact h5 {
+    padding: 30px 0px;
+}
+
+.footer {
+    padding: 20px;
+
+    text-align: left;
+}
