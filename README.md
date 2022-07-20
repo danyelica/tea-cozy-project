@@ -1,4 +1,4 @@
-# Codecademy Challenge: tea-cozy-project
+# Codecademy Challenge: tea Cozy Project
 
 ## The challenge proposed to reproduce this site using .css and .html:
 ![alt text](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg)
